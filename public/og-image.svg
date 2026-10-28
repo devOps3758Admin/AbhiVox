@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="tealGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#20B6A5" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#080A09" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="yellowGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E9E65A" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#080A09" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#20B6A5" stroke-opacity="0.08" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#080A09" />
+  <rect width="1200" height="630" fill="url(#grid)" />
+
+  <!-- Radial Accents -->
+  <circle cx="950" cy="200" r="350" fill="url(#tealGlow)" />
+  <circle cx="250" cy="450" r="300" fill="url(#yellowGlow)" />
+
+  <!-- Frame Border -->
+  <rect x="40" y="40" width="1120" height="550" rx="24" fill="#101211" fill-opacity="0.7" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1.5" />
+
+  <!-- Corner Brackets -->
+  <path d="M 60 90 L 60 60 L 90 60" fill="none" stroke="#20B6A5" stroke-width="3" />
+  <path d="M 1140 90 L 1140 60 L 1110 60" fill="none" stroke="#20B6A5" stroke-width="3" />
+  <path d="M 60 540 L 60 570 L 90 570" fill="none" stroke="#20B6A5" stroke-width="3" />
+  <path d="M 1140 540 L 1140 570 L 1110 570" fill="none" stroke="#20B6A5" stroke-width="3" />
+
+  <!-- Eyebrow Badge -->
+  <g transform="translate(100, 130)">
+    <rect width="360" height="36" rx="18" fill="#20B6A5" fill-opacity="0.1" stroke="#20B6A5" stroke-opacity="0.3" stroke-width="1" />
+    <text x="180" y="23" fill="#20B6A5" font-family="monospace, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" letter-spacing="2">
+      ENTERPRISE SOFTWARE · CLOUD · AI
+    </text>
+  </g>
+
+  <!-- Main Brand Title -->
+  <text x="100" y="240" fill="#F4F5F1" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="900" letter-spacing="-1">
+    ABHIVOX TECHNOLOGIES
+  </text>
+
+  <!-- Tagline -->
+  <text x="100" y="315" fill="#E9E65A" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="700">
+    Your Vision. Our Innovation.
+  </text>
+
+  <!-- Description -->
+  <text x="100" y="380" fill="#A9B0AC" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="400">
+    We engineer bespoke software, multi-cloud infrastructure, DevOps automation,
+  </text>
+  <text x="100" y="415" fill="#A9B0AC" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="400">
+    and applied AI systems for international technology and business clients.
+  </text>
+
+  <!-- Bottom Details Bar -->
+  <line x1="100" y1="480" x2="1100" y2="480" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1" />
+
+  <text x="100" y="525" fill="#20B6A5" font-family="monospace, sans-serif" font-size="16" font-weight="bold">
+    // DOMAIN: https://tech.abhivox.online
+  </text>
+
+  <text x="1100" y="525" fill="#A9B0AC" font-family="monospace, sans-serif" font-size="14" text-anchor="end">
+    DIRECT: +91 7379791375
+  </text>
+</svg>
